@@ -1,0 +1,19 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "basic template for webdev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marino Juan Motta",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}

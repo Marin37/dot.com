@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  text-decoration: none; }
+
+:root {
+  --light1: rgb(250, 240, 215);
+  --light2: rgb(253, 255, 233);
+  --dark1: black;
+  --dark2: rgb(56, 56, 56); }
+
+body {
+  padding-top: 50px;
+  background-color: var(--light2);
+  color: var(--dark1);
+  max-width: 80vw; }
+
+.page-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  display: block;
+  background-color: var(--dark1); }
+
+.page-inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 90%;
+  max-width: 90%;
+  height: 100%;
+  min-height: 50px;
+  margin: 0 auto;
+  top: 0;
+  background-color: var(--dark1); }
+
+.header-logo-container {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  padding-right: 10px; }
+
+.header-logo-container img {
+  margin-top: -4px;
+  max-height: 50px;
+  vertical-align: middle; }
+
+.header-links-container {
+  display: flex;
+  min-width: 70%;
+  justify-content: right;
+  align-items: center; }
+
+.header-links-container a {
+  text-align: center;
+  color: var(--light2);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--light2);
+  border-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 2%; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  html,
+  body {
+    float: left;
+    width: 0;
+    overflow-x: hidden;
+    margin: none; } }
